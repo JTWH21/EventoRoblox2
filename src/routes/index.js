@@ -1,2 +1,8 @@
+// routes/index.js
 
-module.exports.AuthorRoutes = require("./Author")
+module.exports = {
+    JoinEventRoutes: require("./JoinEvent"),
+    RegistroEventoRoutes: require("./RegistroEvento"),
+    UsuarioEventoRoutes: require("./UsuarioEvento")
+  };
+  
